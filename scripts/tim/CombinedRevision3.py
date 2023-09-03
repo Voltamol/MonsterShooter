@@ -75,18 +75,7 @@ punch=pygame.mixer.Sound(join(game_assets,"punch.wav"))
 music=pygame.mixer.music.load(join(game_assets,"music.mp3"))
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #++++++++++++++++++++++++++++++++++++++++++++++ Attribute classes +++++++++++++++++++++++++++++++++++++++++++++++++
-'''class HP:
-    __hp=15
 
-    def __get__(self,caller,objecttype):
-        return self.__hp
-
-    def __set__(self,caller,value):
-        self.__hp=value
-        if self.__hp==0:
-            caller.kill()
-
-'''
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #+++++++++++++++++++++++++++++++++++++++++++++ GAME CHARACTERS ++++++++++++++++++++++++++++++++++++++++++++++++++++
 class Character(pygame.sprite.Sprite):
